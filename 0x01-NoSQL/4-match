@@ -1,0 +1,2 @@
+/ This MongoDB script retrieves all documents from the 'school' collection where the 'name' field equals "Holberton School"
+db.school.find({ name: "Holberton school" })

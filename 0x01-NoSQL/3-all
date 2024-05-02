@@ -1,0 +1,2 @@
+/ This MongoDB script retrieves all documents from the 'school' collection
+db.school.find()

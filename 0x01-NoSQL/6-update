@@ -1,0 +1,6 @@
+// This MongoDB script adds or updates the 'address' attribute for documents in the 'school' collection
+db.school.update(
+{ name: "Holberton school" },
+{ $set: { address: "972 Mission Street" } },
+{ multi: true }
+)

@@ -1,0 +1,2 @@
+// This MongoDB script shows the total count of documents in the 'school' collection
+db.school.countDocuments({})
