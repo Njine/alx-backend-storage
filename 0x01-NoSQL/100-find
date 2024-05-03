@@ -1,0 +1,2 @@
+// This MongoDB script retrieves all documents from the "school" collection where the "name" field begins with "Holberton".
+db.school.find({ name: { $regex: /^Holberton/ } })
